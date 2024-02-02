@@ -12,4 +12,8 @@ router.get('/cadastro', function(req,res){
     res.render('../views/cadastro.ejs')
 })
 
+router.get('/jogar', function(req,res) {
+    res.render('../views/jogar.ejs')
+})
+
 module.exports = router

@@ -50,11 +50,18 @@ app.post('/cadLutador', function(req,res) {
     console.log(lutadoresManager.obterLutadores())
     res.status(200).send("Lutador cadastrado com sucesso!");
 
-}).catch(function(error) {
-    console.error(("ERRO AO CADASTRAR Lutador: " + error));
-    res.status(500).send("Erro ao cadastrar Lutador");
+  }).catch(function(error) {
+      console.error(("ERRO AO CADASTRAR Lutador: " + error));
+      res.status(500).send("Erro ao cadastrar Lutador");
+  })
+    
 })
-  
+
+app.get('/fase__selecao', function(req,res) {
+  console.log("Mostrando opçoes")
+  var lutadores__lista = lutadoresManager.obterLutadores()
+  console.log(lutadores__lista)
+  res.render('../views/jogar.ejs',{lutadores__lista, lutadores__lista})
 })
 
 
