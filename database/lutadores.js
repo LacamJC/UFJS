@@ -56,6 +56,6 @@ const bd_lutadores = database.define('bd_lutadores', {
     },
 })
 
-// bd_lutadores.sync({force:true})
+bd_lutadores.sync({force:true})
 
 module.exports = bd_lutadores
