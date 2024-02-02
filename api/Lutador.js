@@ -7,8 +7,9 @@ class Lutador{
         this.setIdade(idade),
         this.setVitorias(vitorias),
         this.setDerrotas(derrotas),
-        this.setEmpates(empates)
-        this.setWinrate()
+        this.setEmpates(empates),
+        this.setWinrate(),
+        this.setCategoria()
     }
 
 
@@ -45,7 +46,7 @@ class Lutador{
     
     setCategoria(){
         // this.categoria = categoria
-        var peso = this.peso 
+        var peso = this.getPeso()
         if(peso < 52)
         {
             this.categoria = 'Inválido'
