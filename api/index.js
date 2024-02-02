@@ -1,6 +1,5 @@
 const Lutador = require('./Lutador.js')
 const Luta = require('./Luta.js')
-const showLutadores = document.getElementById('lutadoresList')
 
 
 const Lutadores = [
@@ -15,10 +14,7 @@ const Lutadores = [
     new Lutador('Ferroz',    'Frances',       51.2,  23,   5,   4, 2),
 ]
 const luta = new Luta(Lutadores[0], Lutadores[2])
-// console.log(Lutadores)
 
-console.log(showLutadores)
-showLutadores.innerHTML = 'HAHAHHAHAHAHAAHA'
 
-console.log(luta)
 
+module.exports = Lutadores
