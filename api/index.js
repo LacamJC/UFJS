@@ -15,6 +15,7 @@ const Lutadores = [
 ]
 const luta = new Luta(Lutadores[0], Lutadores[2])
 
+console.table(luta)
 
 
 module.exports = Lutadores
