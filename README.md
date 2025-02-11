@@ -26,7 +26,7 @@ Este projeto simula um sistema de lutas, onde lutadores competem entre si, e o v
 
 1. Clone o repositório:
 ```bash
-    git clone [https://github.com/SeuUsuario/SistemaDeLutas.git](https://github.com/LacamJC/UFJS_API.git)
+    git clone https://github.com/SeuUsuario/SistemaDeLutas.git
     cd .\UFJS_API\
 ```
 
