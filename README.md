@@ -1,5 +1,5 @@
 
-# Sistema de Lutas
+# Ultimate Fight Javascript
 
 Este projeto simula um sistema de lutas, onde lutadores competem entre si, e o vencedor é determinado aleatoriamente. O sistema mantém o histórico das vitórias, derrotas e empates de cada lutador, além de calcular a taxa de vitórias (winrate).
 
@@ -26,8 +26,8 @@ Este projeto simula um sistema de lutas, onde lutadores competem entre si, e o v
 
 1. Clone o repositório:
 ```bash
-    git clone https://github.com/SeuUsuario/SistemaDeLutas.git
-    cd SistemaDeLutas
+    git clone [https://github.com/SeuUsuario/SistemaDeLutas.git](https://github.com/LacamJC/UFJS_API.git)
+    cd .\UFJS_API\
 ```
 
 2. Instale as dependências (se necessário) e inicie o servidor Node.js:
