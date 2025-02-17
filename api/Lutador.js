@@ -89,6 +89,21 @@ class Lutador{
     getDerrotas(){return this.derrotas}
     getEmpates(){return this.empates}
     getWinrate(){return this.winrate}
+
+    getInfo(){
+        const info = {
+            nome : this.getNome(),
+            nacionalidade : this.getNacionalidade(),
+            peso : this.getPeso(),
+            categoria : this.getCategoria(),
+            idade : this.getIdade(),
+            vitorias : this.getVitorias(),
+            derrotas : this.getDerrotas(),
+            empates : this.getEmpates(),
+            winrate : this.getWinrate(),
+
+        }
+    }
 }
 
 
