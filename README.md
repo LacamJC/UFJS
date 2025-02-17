@@ -10,10 +10,12 @@ Este projeto simula um sistema de lutas, onde lutadores competem entre si, e o v
 - Cálculo da taxa de vitórias (winrate).
 - Registro de vitórias, derrotas e empates após cada luta.
 - Exibição dos lutadores e suas estatísticas.
+- Testes automatizados com jest para verificação da criação e controle das instancias
 
 ## Tecnologias Utilizadas
 - **JavaScript**: Para implementação das lógicas do sistema.
 - **Node.js**: Para execução do projeto.
+- **Jest**: Para a criação de teste unitarios
 
 ## Estrutura de Arquivos
 
@@ -38,6 +40,7 @@ Este projeto simula um sistema de lutas, onde lutadores competem entre si, e o v
 
 3. Veja o resultado no console, onde as informações sobre a luta e os lutadores serão exibidas.
 
+
 ## Exemplo de Luta
 O projeto cria uma luta entre dois lutadores e exibe a tabela de informações sobre a luta, como o vencedor e o histórico de vitórias e derrotas dos lutadores.
 
@@ -50,3 +53,4 @@ O projeto cria uma luta entre dois lutadores e exibe a tabela de informações s
 ## Atribuições
 
 Este projeto foi inspirado no sistema de lutas e gerenciamento de lutadores, onde cada lutador tem atributos como nome, peso, categoria e histórico de vitórias/derrotas.
+
